@@ -6,12 +6,209 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="/src/assets/">
+    <link rel="stylesheet"  href="/assets/reset.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Forms</title>
 </head>
 <body>
-    
+    <form class="form-1">
+      <div class="form-1--big-box">
+        <div class="input--login-box">
+            <div class="input--field-box">
+                <label for="login">Input Label</label>
+                <input class="input--field" id="login" type="text" name="username" placeholder="Placeholder Text">
+            </div>
+            <div class="input--field-box">
+                <label for="password">Input Label</label>
+                <input class="input--field" id="password" type="password" name="password" placeholder="••••••••">
+            </div>
+            <div class="input--news-subscribe">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>Subscribe to News</p>
+            </div>
+        </div>
+        <button class="button">Sign in</button>
+        <a class="input--forgot-password" href="#">Forgot your password?</a>
+        <div class="rectangle"></div>
+        <div class="input--social-login">
+            <p class="social-login--text">or continue with</p>
+            <div class="social-login--box">
+                <button class="button button--social-login">
+                    <img src="/assets/images/google-login.png" alt="google-login">
+                </button>
+                <button class="button button--social-login">
+                    <img src="/assets/images/facebook-login.png" alt="facebook-login">
+                </button>
+            </div>
+        </div>
+      </div>
+    </form>
+    <form class="form-2">
+        <div class="form-2--big-box">
+            <h1 class="form-2--heading">Contact Us</h1>
+            <div class="form-2--input-box">
+                <div class="input-box-row">
+                    <div class="input--field-box">
+                        <label for="label1">Input Label</label>
+                        <input class="input--field" id="label1" type="text" name="label1" placeholder="Placeholder Text">
+                    </div>
+                    <div class="input--field-box">
+                        <label for="label2">Input Label</label>
+                        <input class="input--field" id="label2" type="text" name="label2" placeholder="Placeholder Text">
+                    </div>
+                </div>
+                <div class="input-box-row">
+                    <div class="input--field-box">
+                        <label for="label3">Input Label</label>
+                        <input class="input--field" id="label3" type="text" name="label3" placeholder="Placeholder Text">
+                    </div>
+                    <div class="input--field-box">
+                        <label for="label4">Input Label</label>
+                        <input class="input--field" id="label4" type="text" name="label4" placeholder="Placeholder Text">
+                    </div>
+                </div>
+                <div class="input--news-subscribe">
+                    <label class="container">
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Subscribe to News</p>
+                </div>
+                <div class="input--field-box">
+                    <label for="label5">Text Area Label</label>
+                    <textarea class="input--field" id="label5" type="text-area" name="label5" placeholder="Placeholder Text"></textarea>
+                </div>
+            </div>
+            <button class="button">Submit</button>
+        </div>
+    </form>
+    <form class="form-3">
+        <div class="form-3--big-box">
+            <div class="form-3--text-box">
+                <p class="text-box--text">Contact Information</p>
+                <p class="text-box--text">Here’s some additional support text to help set user expectations. </p>
+                <div class="text-box--contacts">
+                    <div class="text-box--contact">
+                        <img src="/assets/images/Phone.png" alt="number">
+                        <p class="text-box--text">123-456-7890</p>
+                    </div>
+                    <div class="text-box--contact">
+                        <img src="/assets/images/Mail.png" alt="email">
+                        <p class="text-box--text">support@minerva.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-3--input-box">
+                <h1 class="form-3--heading">Contact Us</h1>
+                <div class="form-3--input-fields">
+                    <div class="input-box-row">
+                        <div class="input--field-box">
+                            <label for="label6">Input Label</label>
+                            <input class="input--field" id="label6" type="text" name="label6" placeholder="Placeholder Text">
+                        </div>
+                        <div class="input--field-box">
+                            <label for="label7">Input Label</label>
+                            <input class="input--field" id="label7" type="text" name="label7" placeholder="Placeholder Text">
+                        </div>
+                    </div>
+                    <div class="input-box-row">
+                        <div class="input--field-box">
+                            <label for="label8">Input Label</label>
+                            <input class="input--field" id="label8" type="text" name="label8" placeholder="Placeholder Text">
+                        </div>
+                        <div class="input--field-box">
+                            <label for="label9">Input Label</label>
+                            <input class="input--field" id="label9" type="text" name="label9" placeholder="Placeholder Text">
+                        </div>
+                    </div>
+                    <div class="input--field-box">
+                        <label for="label10">Input Label</label>
+                        <input class="input--field" id="label10" type="text" name="label10" placeholder="Placeholder Text">
+                    </div>
+                    <div class="input--field-box">
+                        <label for="label11">Text Area Label</label>
+                        <textarea class="input--field" id="label11" type="text-area" name="label11" placeholder="Placeholder Text"></textarea>
+                    </div>
+                </div>
+                <button class="button">Submit</button>
+            </div>
+        </div>
+    </form>
+    <form class="form-4">
+        <div class="form-4--big-box">
+            <h1 class="form-4--heading">Checkout</h1>
+            <div class="form-4--details">
+                <div class="order-details">
+                    <h1 class="order-heading">Your Order</h1>
+                    <div class="order-item">
+                        <img src="/assets/images/image.png" alt="item-photo">
+                        <div class="item">
+                            <p class="item-name">Eggshell Plant Pot</p>
+                            <p class="item-desc">Size: Medium</p>
+                            <p class="item-desc">Qty: 1</p>
+                            <p class="item-desc">$25.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-4--rectangle"></div>
+                <div class="delivery-details">
+                    <h1 class="order-heading">Delivery Details</h1>
+                    <div class="shipping-address">
+                        <div class="address">
+                            <p class="item-name">Adam Sandler</p>
+                            <p class="item-desc">1234 Fake St</p>
+                            <p class="item-desc">Milwaukee, WI 53203</p>
+                        </div>
+                        <div class="address">
+                            <p class="item-name">Shipping Speed</p>
+                            <p class="item-desc">$7.00 No Rush Shipping</p>
+                            <p class="item-desc">Arrives by 1/16/22</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="form-4--order-payment">
+                <h1 class="order-payment--heading">Payment Method</h1>
+                <div class="payment-input-fields">
+                    <div class="input--field-box">
+                        <label for="label12">Input Label</label>
+                        <input class="input--field" 
+                               id="label12" 
+                               type="text" 
+                               name="label12" 
+                               placeholder="Placeholder Text"
+                        >
+                    </div>
+                    <div class="input--field-box">
+                        <label for="label13">Input Label</label>
+                        <input class="input--field" 
+                               id="label13" 
+                               type="text" 
+                               name="label13" 
+                               placeholder="Placeholder Text"
+                        >
+                    </div>
+                    <div class="input--field-box">
+                        <label for="label14">Input Label</label>
+                        <input class="input--field" 
+                               id="label14" 
+                               type="text" 
+                               name="label14" 
+                               placeholder="Placeholder Text"
+                        >
+                    </div>
+                </div>
+            </div>
+            <button class="button">Continue</button>
+        </div>
+    </form>
     <script src="/scripts.js"></script>
 </body>
 </html>
