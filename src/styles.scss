@@ -496,9 +496,33 @@ input:checked + .slider:before {
   flex-wrap: wrap;
 }
 
+.input--field-box2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+  flex-basis: 309px;
+}
+.input--field-box3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+.input--field-box4{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
 .form-4 .button{
   align-self: flex-end;
 }
+
 @media (max-width: 600px) {
   .form-3--text-box{
     display: none;
